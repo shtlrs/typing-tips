@@ -67,7 +67,7 @@ ints: tuple[int, ...] = (1, 2, 3, 4)
 ints_or_strings: tuple[Union[int, str], ...] = ints
 ```
 
-- `Callable[[Animal], int]` is a subtype of `Callable[[Dog], Union[int, str]]`
+- `Callable[[Dog], int]` is a subtype of `Callable[[Animal], Union[int, str]]`
 
 - `list[int]` is **not** a subtype of `list[Union[int, str]]`
 
